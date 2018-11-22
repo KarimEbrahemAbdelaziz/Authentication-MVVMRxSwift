@@ -10,11 +10,12 @@
 		95D98EF82869F0BD0283CBFD /* Pods_Authentication_MVVMRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C762FEC51B477DCEC32F1CD /* Pods_Authentication_MVVMRxSwift.framework */; };
 		AF1998117B846C674F05E7E0 /* Pods_Authentication_MVVMRxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D592F9110DEB9FB39A4506 /* Pods_Authentication_MVVMRxSwiftTests.framework */; };
 		BCFB369621A6C39800B506AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB369521A6C39800B506AB /* AppDelegate.swift */; };
-		BCFB369821A6C39800B506AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB369721A6C39800B506AB /* ViewController.swift */; };
+		BCFB369821A6C39800B506AB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB369721A6C39800B506AB /* LoginViewController.swift */; };
 		BCFB369B21A6C39800B506AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFB369921A6C39800B506AB /* Main.storyboard */; };
 		BCFB369D21A6C39B00B506AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFB369C21A6C39B00B506AB /* Assets.xcassets */; };
 		BCFB36A021A6C39B00B506AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFB369E21A6C39B00B506AB /* LaunchScreen.storyboard */; };
 		BCFB36AB21A6C39B00B506AB /* Authentication_MVVMRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB36AA21A6C39B00B506AB /* Authentication_MVVMRxSwiftTests.swift */; };
+		BCFB36BB21A6DB5D00B506AB /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB36BA21A6DB5D00B506AB /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +35,7 @@
 		A1473218B5392D98AACE40D4 /* Pods-Authentication-MVVMRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authentication-MVVMRxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Authentication-MVVMRxSwift/Pods-Authentication-MVVMRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		BCFB369221A6C39800B506AB /* Authentication-MVVMRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Authentication-MVVMRxSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFB369521A6C39800B506AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCFB369721A6C39800B506AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCFB369721A6C39800B506AB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BCFB369A21A6C39800B506AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCFB369C21A6C39B00B506AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCFB369F21A6C39B00B506AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		BCFB36A621A6C39B00B506AB /* Authentication-MVVMRxSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Authentication-MVVMRxSwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFB36AA21A6C39B00B506AB /* Authentication_MVVMRxSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication_MVVMRxSwiftTests.swift; sourceTree = "<group>"; };
 		BCFB36AC21A6C39B00B506AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFB36BA21A6DB5D00B506AB /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		DDC469EE8DBEB83FC3A012D8 /* Pods-Authentication-MVVMRxSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authentication-MVVMRxSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Authentication-MVVMRxSwiftTests/Pods-Authentication-MVVMRxSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDEA1F7CFBD2ADC85AA739F7 /* Pods-Authentication-MVVMRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authentication-MVVMRxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Authentication-MVVMRxSwift/Pods-Authentication-MVVMRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,8 +91,9 @@
 		BCFB369421A6C39800B506AB /* Authentication-MVVMRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				BCFB36B821A6DB3B00B506AB /* Utilities */,
+				BCFB36B621A6D76600B506AB /* Scenes */,
 				BCFB369521A6C39800B506AB /* AppDelegate.swift */,
-				BCFB369721A6C39800B506AB /* ViewController.swift */,
 				BCFB369921A6C39800B506AB /* Main.storyboard */,
 				BCFB369C21A6C39B00B506AB /* Assets.xcassets */,
 				BCFB369E21A6C39B00B506AB /* LaunchScreen.storyboard */,
@@ -106,6 +109,38 @@
 				BCFB36AC21A6C39B00B506AB /* Info.plist */,
 			);
 			path = "Authentication-MVVMRxSwiftTests";
+			sourceTree = "<group>";
+		};
+		BCFB36B621A6D76600B506AB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BCFB36B721A6D77000B506AB /* Login */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BCFB36B721A6D77000B506AB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BCFB369721A6C39800B506AB /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BCFB36B821A6DB3B00B506AB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BCFB36B921A6DB4200B506AB /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BCFB36B921A6DB4200B506AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BCFB36BA21A6DB5D00B506AB /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		EF5AE4FB765321995571E274 /* Frameworks */ = {
@@ -321,7 +356,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCFB369821A6C39800B506AB /* ViewController.swift in Sources */,
+				BCFB36BB21A6DB5D00B506AB /* UIView+Extensions.swift in Sources */,
+				BCFB369821A6C39800B506AB /* LoginViewController.swift in Sources */,
 				BCFB369621A6C39800B506AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
