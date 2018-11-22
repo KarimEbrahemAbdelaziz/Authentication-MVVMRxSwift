@@ -193,5 +193,82 @@
             </objects>
             <point key="canvasLocation" x="858" y="100"/>
         </scene>
+        <!--Forget Password View Controller-->
+        <scene sceneID="2aL-4k-Peb">
+            <objects>
+                <viewController id="Wxl-He-3YS" customClass="ForgetPasswordViewController" customModule="Authentication_MVVMRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bzs-CP-CSS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reset Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gej-vN-9pY">
+                                <rect key="frame" x="44" y="94" width="287" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="jHl-RU-Ste">
+                                <rect key="frame" x="40" y="386" width="295" height="40"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wex-EF-Zja">
+                                        <rect key="frame" x="0.0" y="0.0" width="295" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="2pG-rI-Bz9"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to reset password screen in authnetication system using MVVM and RxSwift" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Agj-Zr-UON">
+                                <rect key="frame" x="40" y="158" width="295" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kkb-BA-2YO">
+                                <rect key="frame" x="40" y="490" width="295" height="40"/>
+                                <color key="backgroundColor" red="0.4124199536" green="0.72403466699999997" blue="0.59248147689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="KNT-er-oCk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jHl-RU-Ste" firstAttribute="centerY" secondItem="Bzs-CP-CSS" secondAttribute="centerY" id="4Im-Kn-3If"/>
+                            <constraint firstItem="Agj-Zr-UON" firstAttribute="top" secondItem="gej-vN-9pY" secondAttribute="bottom" constant="16" id="928-10-Qv8"/>
+                            <constraint firstItem="Kkb-BA-2YO" firstAttribute="trailing" secondItem="jHl-RU-Ste" secondAttribute="trailing" id="A8U-S1-gcL"/>
+                            <constraint firstItem="Agj-Zr-UON" firstAttribute="leading" secondItem="Vue-ZR-cpp" secondAttribute="leading" constant="40" id="Amw-ER-wKy"/>
+                            <constraint firstItem="gej-vN-9pY" firstAttribute="top" secondItem="Vue-ZR-cpp" secondAttribute="top" constant="50" id="B4v-Xr-DUn"/>
+                            <constraint firstItem="jHl-RU-Ste" firstAttribute="centerX" secondItem="Bzs-CP-CSS" secondAttribute="centerX" id="SIN-j3-ty0"/>
+                            <constraint firstItem="jHl-RU-Ste" firstAttribute="leading" secondItem="Vue-ZR-cpp" secondAttribute="leading" constant="40" id="XC6-Pm-OKf"/>
+                            <constraint firstItem="Kkb-BA-2YO" firstAttribute="top" secondItem="jHl-RU-Ste" secondAttribute="bottom" constant="64" id="ev2-yB-4Ws"/>
+                            <constraint firstItem="Vue-ZR-cpp" firstAttribute="trailing" secondItem="Agj-Zr-UON" secondAttribute="trailing" constant="40" id="gHe-Wv-qZS"/>
+                            <constraint firstItem="Kkb-BA-2YO" firstAttribute="leading" secondItem="jHl-RU-Ste" secondAttribute="leading" id="lsz-Cf-W3R"/>
+                            <constraint firstItem="Vue-ZR-cpp" firstAttribute="trailing" secondItem="jHl-RU-Ste" secondAttribute="trailing" constant="40" id="oRj-66-f16"/>
+                            <constraint firstItem="gej-vN-9pY" firstAttribute="centerX" secondItem="Bzs-CP-CSS" secondAttribute="centerX" id="sp3-g7-pKE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Vue-ZR-cpp"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="wex-EF-Zja" id="aUd-J3-TR5"/>
+                        <outlet property="resetButton" destination="Kkb-BA-2YO" id="2nv-YE-Eyy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YNT-O7-Ud7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1566" y="100"/>
+        </scene>
     </scenes>
 </document>

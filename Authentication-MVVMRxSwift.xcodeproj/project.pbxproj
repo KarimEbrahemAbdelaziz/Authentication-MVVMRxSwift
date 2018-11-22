@@ -17,6 +17,7 @@
 		BCFB36AB21A6C39B00B506AB /* Authentication_MVVMRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB36AA21A6C39B00B506AB /* Authentication_MVVMRxSwiftTests.swift */; };
 		BCFB36BB21A6DB5D00B506AB /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB36BA21A6DB5D00B506AB /* UIView+Extensions.swift */; };
 		BCFB36BE21A6EF7100B506AB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB36BD21A6EF7100B506AB /* RegisterViewController.swift */; };
+		BCFB36C121A6F13100B506AB /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB36C021A6F13100B506AB /* ForgetPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		BCFB36AC21A6C39B00B506AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCFB36BA21A6DB5D00B506AB /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		BCFB36BD21A6EF7100B506AB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		BCFB36C021A6F13100B506AB /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 		DDC469EE8DBEB83FC3A012D8 /* Pods-Authentication-MVVMRxSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authentication-MVVMRxSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Authentication-MVVMRxSwiftTests/Pods-Authentication-MVVMRxSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDEA1F7CFBD2ADC85AA739F7 /* Pods-Authentication-MVVMRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authentication-MVVMRxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Authentication-MVVMRxSwift/Pods-Authentication-MVVMRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 		BCFB36B621A6D76600B506AB /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				BCFB36BF21A6F11200B506AB /* Forget Password */,
 				BCFB36BC21A6EBAE00B506AB /* Register */,
 				BCFB36B721A6D77000B506AB /* Login */,
 			);
@@ -152,6 +155,14 @@
 				BCFB36BD21A6EF7100B506AB /* RegisterViewController.swift */,
 			);
 			path = Register;
+			sourceTree = "<group>";
+		};
+		BCFB36BF21A6F11200B506AB /* Forget Password */ = {
+			isa = PBXGroup;
+			children = (
+				BCFB36C021A6F13100B506AB /* ForgetPasswordViewController.swift */,
+			);
+			path = "Forget Password";
 			sourceTree = "<group>";
 		};
 		EF5AE4FB765321995571E274 /* Frameworks */ = {
@@ -369,6 +380,7 @@
 			files = (
 				BCFB36BB21A6DB5D00B506AB /* UIView+Extensions.swift in Sources */,
 				BCFB369821A6C39800B506AB /* LoginViewController.swift in Sources */,
+				BCFB36C121A6F13100B506AB /* ForgetPasswordViewController.swift in Sources */,
 				BCFB369621A6C39800B506AB /* AppDelegate.swift in Sources */,
 				BCFB36BE21A6EF7100B506AB /* RegisterViewController.swift in Sources */,
 			);
