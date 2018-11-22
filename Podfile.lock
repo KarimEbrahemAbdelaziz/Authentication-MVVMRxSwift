@@ -1,25 +1,29 @@
 PODS:
+  - IQKeyboardManager (6.1.1)
   - RxCocoa (4.3.0):
     - RxSwift (~> 4.0)
   - RxSwift (4.3.0)
   - SwiftLint (0.27.0)
 
 DEPENDENCIES:
+  - IQKeyboardManager
   - RxCocoa
   - RxSwift
   - SwiftLint
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - IQKeyboardManager
     - RxCocoa
     - RxSwift
     - SwiftLint
 
 SPEC CHECKSUMS:
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
   RxCocoa: 71b9cce833fbcb89a8eec11816dd225830c2bd3c
   RxSwift: a9717a34df3179fe63563f76e046ad345078dd3a
   SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
 
-PODFILE CHECKSUM: a1d68e17eb9f34b1bfa53418b038104b8c2c4a0f
+PODFILE CHECKSUM: 61aa7ba21f9302530bd836f6c2e06c51b5010a13
 
 COCOAPODS: 1.5.3

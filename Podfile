@@ -9,6 +9,7 @@ target 'Authentication-MVVMRxSwift' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'SwiftLint'
+  pod 'IQKeyboardManager'
 
   target 'Authentication-MVVMRxSwiftTests' do
     inherit! :search_paths
