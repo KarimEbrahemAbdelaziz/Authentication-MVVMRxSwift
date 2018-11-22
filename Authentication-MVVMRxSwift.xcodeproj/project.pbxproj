@@ -16,6 +16,7 @@
 		BCFB36A021A6C39B00B506AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFB369E21A6C39B00B506AB /* LaunchScreen.storyboard */; };
 		BCFB36AB21A6C39B00B506AB /* Authentication_MVVMRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB36AA21A6C39B00B506AB /* Authentication_MVVMRxSwiftTests.swift */; };
 		BCFB36BB21A6DB5D00B506AB /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB36BA21A6DB5D00B506AB /* UIView+Extensions.swift */; };
+		BCFB36BE21A6EF7100B506AB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB36BD21A6EF7100B506AB /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BCFB36AA21A6C39B00B506AB /* Authentication_MVVMRxSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication_MVVMRxSwiftTests.swift; sourceTree = "<group>"; };
 		BCFB36AC21A6C39B00B506AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCFB36BA21A6DB5D00B506AB /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		BCFB36BD21A6EF7100B506AB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		DDC469EE8DBEB83FC3A012D8 /* Pods-Authentication-MVVMRxSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authentication-MVVMRxSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Authentication-MVVMRxSwiftTests/Pods-Authentication-MVVMRxSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDEA1F7CFBD2ADC85AA739F7 /* Pods-Authentication-MVVMRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authentication-MVVMRxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Authentication-MVVMRxSwift/Pods-Authentication-MVVMRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 		BCFB36B621A6D76600B506AB /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				BCFB36BC21A6EBAE00B506AB /* Register */,
 				BCFB36B721A6D77000B506AB /* Login */,
 			);
 			path = Scenes;
@@ -141,6 +144,14 @@
 				BCFB36BA21A6DB5D00B506AB /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BCFB36BC21A6EBAE00B506AB /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				BCFB36BD21A6EF7100B506AB /* RegisterViewController.swift */,
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 		EF5AE4FB765321995571E274 /* Frameworks */ = {
@@ -359,6 +370,7 @@
 				BCFB36BB21A6DB5D00B506AB /* UIView+Extensions.swift in Sources */,
 				BCFB369821A6C39800B506AB /* LoginViewController.swift in Sources */,
 				BCFB369621A6C39800B506AB /* AppDelegate.swift in Sources */,
+				BCFB36BE21A6EF7100B506AB /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
