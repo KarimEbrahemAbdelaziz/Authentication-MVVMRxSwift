@@ -2,6 +2,7 @@ disabled_rules: # rule identifiers to exclude from running
   - colon
   - comma
   - control_statement
+  - trailing_whitespace
 opt_in_rules: # some rules are only opt-in
   - empty_count
   # Find all the available rules by running:
@@ -28,7 +29,7 @@ type_body_length:
   - 400 # error
 # or they can set both explicitly
 file_length:
-  warning: 500
+  warning: 600
   error: 1200
 # naming rules can set warnings/errors for min_length and max_length
 # additionally they can set excluded names
