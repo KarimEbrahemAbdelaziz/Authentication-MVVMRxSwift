@@ -61,6 +61,9 @@
                                         <real key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginAciton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jiL-3V-Yfe"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to login screen in authnetication system using MVVM and RxSwift" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zzj-Aa-vvJ">
                                 <rect key="frame" x="40" y="158" width="295" height="61"/>

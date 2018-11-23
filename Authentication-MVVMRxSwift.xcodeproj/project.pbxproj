@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		95D98EF82869F0BD0283CBFD /* Pods_Authentication_MVVMRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C762FEC51B477DCEC32F1CD /* Pods_Authentication_MVVMRxSwift.framework */; };
 		AF1998117B846C674F05E7E0 /* Pods_Authentication_MVVMRxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D592F9110DEB9FB39A4506 /* Pods_Authentication_MVVMRxSwiftTests.framework */; };
+		BCF0D31521A8779C000395AF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0D31421A8779C000395AF /* LoginViewModel.swift */; };
 		BCFB369621A6C39800B506AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB369521A6C39800B506AB /* AppDelegate.swift */; };
 		BCFB369821A6C39800B506AB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB369721A6C39800B506AB /* LoginViewController.swift */; };
 		BCFB369B21A6C39800B506AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFB369921A6C39800B506AB /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		63BCC630689DBD9CD5C8A00A /* Pods-Authentication-MVVMRxSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authentication-MVVMRxSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Authentication-MVVMRxSwiftTests/Pods-Authentication-MVVMRxSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		73D592F9110DEB9FB39A4506 /* Pods_Authentication_MVVMRxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Authentication_MVVMRxSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1473218B5392D98AACE40D4 /* Pods-Authentication-MVVMRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authentication-MVVMRxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Authentication-MVVMRxSwift/Pods-Authentication-MVVMRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		BCF0D31421A8779C000395AF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		BCFB369221A6C39800B506AB /* Authentication-MVVMRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Authentication-MVVMRxSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFB369521A6C39800B506AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCFB369721A6C39800B506AB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				BCFB369721A6C39800B506AB /* LoginViewController.swift */,
+				BCF0D31421A8779C000395AF /* LoginViewModel.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 			files = (
 				BCFB36BB21A6DB5D00B506AB /* UIView+Extensions.swift in Sources */,
 				BCFB369821A6C39800B506AB /* LoginViewController.swift in Sources */,
+				BCF0D31521A8779C000395AF /* LoginViewModel.swift in Sources */,
 				BCFB36C121A6F13100B506AB /* ForgetPasswordViewController.swift in Sources */,
 				BCFB369621A6C39800B506AB /* AppDelegate.swift in Sources */,
 				BCFB36BE21A6EF7100B506AB /* RegisterViewController.swift in Sources */,
